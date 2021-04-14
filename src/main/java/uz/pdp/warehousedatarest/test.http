@@ -1,0 +1,36 @@
+GET http://localhost:8080/api/wareHouse
+###
+POST http://localhost:8080/api/wareHouse
+Content-Type: application/json
+
+{
+  "name": "ware house-1"
+}
+###
+GET http://localhost:8080/api/user
+###
+POST http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+  "firstName": "user-1",
+  "lastName": "akjs",
+  "phoneNumber": "gsavg",
+  "code": "ajsvgsahvc",
+  "password": "baschasbchbasc",
+  "wareHouse": ["/1"]
+}
+###
+POST http://localhost:8080/api/output
+Content-Type: application/json
+
+{
+
+}
+###
+POST http://localhost:8080/api/inputProduct
+Content-Type: application/json
+
+{
+
+}
